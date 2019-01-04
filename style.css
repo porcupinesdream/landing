@@ -1,0 +1,98 @@
+/* style.css */
+body{
+  background: rgb(245,245,245);
+  color: #B7E3CC;
+  font-size: 15px;
+  font-family: 'Niramit', sans-serif;
+}
+h1{
+  color: red;
+  font-weight: bold;
+}
+
+h2 {
+  color: pink;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+i {
+  width: 20px;
+}
+
+/*banner*/
+#banner{
+  text-align: center;
+  background-image: url("images/outdoors.jpg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 60px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#banner a {
+  font-size: 20px;
+  color: #E2EB98;
+  font-family: 'Kodchasan', sans-serif;
+  text-decoration: none;
+}
+
+#banner a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+/*body*/
+.card{
+  padding: 50px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+#links a {
+  text-decoration: none;
+  color: pink;
+}
+
+#links a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+/*footer*/
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 25px;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+#footer p {
+  font-size: 15px;
+  clear: both;
+}
+
+.block-one, 
+.block-two {float: left;}
+
+.block-two {
+  padding-left: 700px;
+}
